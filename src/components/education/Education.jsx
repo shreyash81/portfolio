@@ -8,20 +8,20 @@ const education = [
         "institution": "Lovely Professional University",
         "duration": "2022 – 2026",
         "grade": "Pursuing",
-        "Stream": "Cloud Computing & Ethical Hacking",
+        "Stream": "Cloud Computing & DevOps",
     },
     {
         "degree": "12th Grade (Science)",
-        "institution": "Vidhya Valley Sr. Sec. School",
-        "duration": "2020 – 2021",
-        "grade": "80%",
+        "institution": "Lucknow Public School",
+        "duration": "2019 – 2020",
+        "grade": "70%",
         "stream": "Science (Physics, Chemistry, Mathematics)"
     },
     {
         "degree": "10th Grade",
-        "institution": "Sardar Patel Sr. Sec. School",
+        "institution": "Brassi International School",
         "duration": "2018 – 2019",
-        "grade": "56%",
+        "grade": "75%",
         "stream": "General Studies"
     }
 ];
@@ -50,5 +50,6 @@ const Education = () => {
         </section>
     );
 };
+
 
 export default Education;
