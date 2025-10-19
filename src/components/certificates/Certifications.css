@@ -1,0 +1,101 @@
+.certifications__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.875rem;
+}
+
+.certification__card {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.certification__card:hover {
+    transform: translateY(-5px);
+}
+
+.certification__content {
+    flex: 1;
+}
+
+.certification__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.75rem;
+    color: var(--title-color);
+}
+
+.certification__platform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.platform__name {
+    color: var(--first-color);
+    font-weight: var(--font-bold);
+    font-size: var(--small-font-size);
+}
+
+.certification__date {
+    font-size: var(--tiny-font-size);
+    background-color: rgba(249, 79, 79, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    color: var(--first-color);
+}
+
+.certification__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill__tag {
+    background-color: var(--first-color-lighten);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: var(--tiny-font-size);
+    color: var(--title-color);
+}
+
+.certification__link {
+    color: var(--first-color);
+    font-size: 1.25rem;
+    transition: 0.3s;
+    margin-left: 1rem;
+}
+
+.certification__link:hover {
+    color: var(--first-color-dark);
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+    .certifications__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .certifications__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .certification__card {
+        padding: 1.25rem;
+    }
+    
+    .certification__platform {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
