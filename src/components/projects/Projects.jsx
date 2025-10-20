@@ -14,8 +14,8 @@ const data = [
             "Configured HPA, health checks, and AWS ALB, improving reliability by 40%"
         ],
         links: {
-            github: "https://github.com/abhiyanshh27/robot-shop-microservices",
-            demo: "https://robot-shop.abhiyansh.dev"
+          
+            demo: "https://shreyashsinghchauhan.hashnode.dev/end-to-end-three-tier-architecture-deployment-on-aws-eks-stans-robot-shop"
         }
     },
     {
@@ -30,8 +30,8 @@ const data = [
             "Achieved 99.9% uptime with support for 100+ concurrent users"
         ],
         links: {
-            github: "https://github.com/abhiyanshh27/aws-eks-fargate-2048",
-            demo: "https://2048.abhiyansh.dev"
+            
+            demo: "https://shreyashsinghchauhan.hashnode.dev/amazon-elastic-kubernetes-service-eks-project"
         }
     },
     {
@@ -46,8 +46,8 @@ const data = [
             "Reduced deployment time from 2 hours to 20 minutes"
         ],
         links: {
-            github: "https://github.com/abhiyanshh27/devops-cicd-pipeline",
-            demo: "https://pipeline.abhiyansh.dev"
+            
+            demo: "https://devsecops-integrated-cicd-pipeline.hashnode.dev/devsecops-integrated-cicd-pipeline"
         }
     },
     {
@@ -62,8 +62,8 @@ const data = [
             "Ensured 100% cluster-wide policy compliance"
         ],
         links: {
-            github: "https://github.com/abhiyanshh27/kubernetes-automation",
-            demo: "https://k8s-automation.abhiyansh.dev"
+            
+            demo: "https://shreyashsinghchauhan.hashnode.dev/real-time-kubernetes-security-automation"
         }
     },
 ];
